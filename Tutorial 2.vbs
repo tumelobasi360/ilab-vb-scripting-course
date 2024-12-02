@@ -1,5 +1,5 @@
 '********************************************
-'       Tutorial 1
+'       Tutorial 2 Using different data types
 '********************************************
 REM This tutorial teaches you about diffrent data types
 
