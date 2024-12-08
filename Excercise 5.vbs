@@ -1,7 +1,17 @@
-
+'create a program that will perform different calculations using 
+'functions. The program should have the following functions:
+'1 - a function to calculate the sum 
+'2 - a function to calculate the product 
+'3 - a function to calculate the difference 
+'4 - a function to calculate the quotient
+'All these functions should take 2 numbers as parameters 
+'The program should have the following subroutine:
+'1 - a sub to display a welcome message
+'Lastly, the program should display the sum, difference, product
+'and quotient of the 2 numbers
 
 Sub showWelcomeMessage(strName)
-    MsgBox("Hi, " & strName & " Welcome to VB Scripting Course")
+    MsgBox("Hi, " & strName & " Welcome to our Calculator Universe")
 end sub
 
 strName = inputBox("Please enter your name: ")
@@ -38,8 +48,7 @@ difference = getDifference(intNumber1, intNumber2)
 product = getProduct(intNumber1, intNumber2)
 quotient = getquotient(intNumber1, intNumber2)
 
-MsgBox("The results of the sum: " & sum)
-MsgBox("The results of the subtraction: " & difference)
-MsgBox("The results of the multiplication: " & product)
-MsgBox("The results of the division: " & quotient)
-
+MsgBox("The sum of " & intNumber1 & " and " & intNumber1 & " is: " & sum & vbNewLine _
+                & "The product of " & intNumber1 & " and " & intNumber2 & " is: " & product & vbNewLine _
+                & "The difference of " & intNumber1 & " and " & intNumber2 & " is: " & difference & vbNewLine _
+                & "The quotient of " & intNumber1 & " and " & intNumber2 & " is: " & quotient)

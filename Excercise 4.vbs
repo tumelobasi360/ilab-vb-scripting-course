@@ -37,16 +37,16 @@ DO
     LOOP
 
     IF operator = "+" THEN
-            MsgBox("Results: " & intNumber1 + intNumber2)
+            MsgBox("Results of: " & intNumber1 & " " & operator & " " & intNumber2 & " is: " & intNumber1 + intNumber2)
         ELSEIF operator = "-" THEN
-            MsgBox("Results: " & intNumber1 - intNumber2)
+            MsgBox("Results of: " & intNumber1 & " " & operator & " " & intNumber2 & " is: " & intNumber1 - intNumber2)
         ELSEIF operator = "*" THEN
-            MsgBox("Results: " & intNumber1 * intNumber2)
+            MsgBox("Results of: " & intNumber1 & " " & operator & " " & intNumber2 & " is: " & intNumber1 * intNumber2)
         ELSE
             DO WHILE intNumber2 = 0
             intNumber2 = CInt(Trim(inputBox("cannot devide by 0. please enter a different number")))
             LOOP
-            MsgBox("Results: " & intNumber1 / intNumber2)
+            MsgBox("Results of: " & intNumber1 & " " & operator & " " & intNumber2 & " is: " & intNumber1 / intNumber2)
     END IF
     repsone = LCase(inputBox("Do you want to continue? (Yes/No)"))
 
