@@ -1,4 +1,18 @@
+'Create a program that will receive firstname and lastname
+'from the user. Then display the fullname such that the first
+'letter of the firstname and lastname are capital letters
 
+'input: 
+'firstname: david
+'lastname: smith
+'-----------------------
+'firstname: CAROLINE
+'lastname: jones
+
+'output:
+'David Smith
+'-----------------------
+'Caroline Jones
 
 'Declare
 DIM strFirstName, strLastName

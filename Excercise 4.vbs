@@ -1,5 +1,21 @@
-DIM operator, intNumber1, intNumber2, repsone
+'display the following menu to the user:
 
+ 'Please enter any of these operators:
+ '+ Addition
+ '- Subtraction
+ '* Multiply
+ '/ Divide
+ 
+ 'the program should allow the user to use one operator from the menu. 
+ 'Display the menu as long as the user enters an incorrect operator. The program should
+ 'ask for 2 integers from the user and perform the neccessary computation based on
+ 'the selected operator, and then display the results.
+ 
+ 'The program should as the user if they want to continue using it, if they user says
+ 'yes then the program should display the menu again, otherwise the program should 
+ 'exit
+
+DIM operator, intNumber1, intNumber2, repsone
 
 DO
     intNumber1 = CInt(Trim(inputBox("Please enter the first number")))
